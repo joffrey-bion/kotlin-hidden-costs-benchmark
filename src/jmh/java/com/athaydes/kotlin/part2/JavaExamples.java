@@ -1,6 +1,6 @@
 package com.athaydes.kotlin.part2;
 
-import org.openjdk.jmh.logic.BlackHole;
+import org.openjdk.jmh.infra.Blackhole;
 
 import java.util.function.IntUnaryOperator;
 
@@ -16,17 +16,17 @@ public class JavaExamples {
         return sumSquare.applyAsInt( 1 ) + sumSquare.applyAsInt( 2 );
     }
 
-    public static void sayHello( String who, BlackHole blackHole ) {
-        blackHole.consume( "Hello " + who );
+    public static void sayHello( String who, Blackhole Blackhole ) {
+        Blackhole.consume( "Hello " + who );
     }
 
-    public static void runPrintDouble( BlackHole blackHole, int[] values ) {
-        printDouble( blackHole, values );
+    public static void runPrintDouble( Blackhole Blackhole, int[] values ) {
+        printDouble( Blackhole, values );
     }
 
-    public static void printDouble( BlackHole blackHole, int... values ) {
+    public static void printDouble( Blackhole Blackhole, int... values ) {
         for (int value : values) {
-            blackHole.consume( value );
+            Blackhole.consume( value );
         }
     }
 

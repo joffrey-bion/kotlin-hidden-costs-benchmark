@@ -1,14 +1,14 @@
 package com.athaydes.kotlin.part3;
 
-import org.openjdk.jmh.logic.BlackHole;
+import org.openjdk.jmh.infra.Blackhole;
 
 public class JavaExamples {
 
-    public static void runStringDelegateExample( BlackHole blackHole ) {
+    public static void runStringDelegateExample( Blackhole Blackhole ) {
         Example2 example2 = new Example2();
         example2.initialize();
-        blackHole.consume( example2.p );
-        blackHole.consume( example2.p );
+        Blackhole.consume( example2.p );
+        Blackhole.consume( example2.p );
     }
 
     public static boolean isBetweenNames( String name ) {
