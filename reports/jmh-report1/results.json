@@ -1,0 +1,1354 @@
+[
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part1.KotlinBenchmarkPart1.empty",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.0370869662512684E9,
+            "scoreError" : 2.7682656073670566E7,
+            "scoreConfidence" : [
+                2.0094043101775978E9,
+                2.064769622324939E9
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.0239450425015295E9,
+                "50.0" : 2.0394222418336449E9,
+                "90.0" : 2.051472621993046E9,
+                "95.0" : 2.051472621993046E9,
+                "99.0" : 2.051472621993046E9,
+                "99.9" : 2.051472621993046E9,
+                "99.99" : 2.051472621993046E9,
+                "99.999" : 2.051472621993046E9,
+                "99.9999" : 2.051472621993046E9,
+                "100.0" : 2.051472621993046E9
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.0387213793775408E9,
+                    2.040123104289749E9,
+                    2.0239450425015295E9
+                ],
+                [
+                    2.0403842696597755E9,
+                    2.02787537968597E9,
+                    2.051472621993046E9
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part1.KotlinBenchmarkPart1.javaLambda",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.057953207276133E8,
+            "scoreError" : 2193664.6709825154,
+            "scoreConfidence" : [
+                3.0360165605663073E8,
+                3.079889853985958E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.048086914165386E8,
+                "50.0" : 3.055890963646411E8,
+                "90.0" : 3.070613387749652E8,
+                "95.0" : 3.070613387749652E8,
+                "99.0" : 3.070613387749652E8,
+                "99.9" : 3.070613387749652E8,
+                "99.99" : 3.070613387749652E8,
+                "99.999" : 3.070613387749652E8,
+                "99.9999" : 3.070613387749652E8,
+                "100.0" : 3.070613387749652E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    3.070613387749652E8,
+                    3.0629912389972496E8,
+                    3.048086914165386E8
+                ],
+                [
+                    3.054245775451686E8,
+                    3.0552884248381495E8,
+                    3.0564935024546725E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part1.KotlinBenchmarkPart1.javaPrivateConstructorCallFromStaticMethod",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.988376845908463E8,
+            "scoreError" : 2.0777076614694837E7,
+            "scoreConfidence" : [
+                3.7806060797615147E8,
+                4.1961476120554113E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.847346512566115E8,
+                "50.0" : 4.0166382258451176E8,
+                "90.0" : 4.0486126383403355E8,
+                "95.0" : 4.0486126383403355E8,
+                "99.0" : 4.0486126383403355E8,
+                "99.9" : 4.0486126383403355E8,
+                "99.99" : 4.0486126383403355E8,
+                "99.999" : 4.0486126383403355E8,
+                "99.9999" : 4.0486126383403355E8,
+                "100.0" : 4.0486126383403355E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.0486126383403355E8,
+                    4.032147015140832E8,
+                    4.012303852714648E8
+                ],
+                [
+                    3.9688784577132595E8,
+                    4.020972598975586E8,
+                    3.847346512566115E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part1.KotlinBenchmarkPart1.kotlinInlinedFunction",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.032058397222714E8,
+            "scoreError" : 1.3711125598710524E7,
+            "scoreConfidence" : [
+                4.8949471412356085E8,
+                5.169169653209819E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.937878599163148E8,
+                "50.0" : 5.0537994059747213E8,
+                "90.0" : 5.066805185202503E8,
+                "95.0" : 5.066805185202503E8,
+                "99.0" : 5.066805185202503E8,
+                "99.9" : 5.066805185202503E8,
+                "99.99" : 5.066805185202503E8,
+                "99.999" : 5.066805185202503E8,
+                "99.9999" : 5.066805185202503E8,
+                "100.0" : 5.066805185202503E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5.059967540835293E8,
+                    4.937878599163148E8,
+                    5.0559518562806565E8
+                ],
+                [
+                    5.051646955668786E8,
+                    5.020100246185898E8,
+                    5.066805185202503E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part1.KotlinBenchmarkPart1.kotlinLambda",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.0354265945413274E8,
+            "scoreError" : 7005959.22063857,
+            "scoreConfidence" : [
+                4.9653670023349416E8,
+                5.105486186747713E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.987812653403621E8,
+                "50.0" : 5.040860040084201E8,
+                "90.0" : 5.0612424276550704E8,
+                "95.0" : 5.0612424276550704E8,
+                "99.0" : 5.0612424276550704E8,
+                "99.9" : 5.0612424276550704E8,
+                "99.99" : 5.0612424276550704E8,
+                "99.999" : 5.0612424276550704E8,
+                "99.9999" : 5.0612424276550704E8,
+                "100.0" : 5.0612424276550704E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.987812653403621E8,
+                    5.038802596305681E8,
+                    5.0429174838627213E8
+                ],
+                [
+                    5.0612424276550704E8,
+                    5.046377705131022E8,
+                    5.0354067008898515E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part1.KotlinBenchmarkPart1.kotlinPrivateConstructorCallFromCompanionObject",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.403672014781342E8,
+            "scoreError" : 5935749.503328211,
+            "scoreConfidence" : [
+                4.34431451974806E8,
+                4.463029509814624E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.380134427649071E8,
+                "50.0" : 4.399641522802173E8,
+                "90.0" : 4.432674744572833E8,
+                "95.0" : 4.432674744572833E8,
+                "99.0" : 4.432674744572833E8,
+                "99.9" : 4.432674744572833E8,
+                "99.99" : 4.432674744572833E8,
+                "99.999" : 4.432674744572833E8,
+                "99.9999" : 4.432674744572833E8,
+                "100.0" : 4.432674744572833E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.423789838747548E8,
+                    4.4067440879373986E8,
+                    4.432674744572833E8
+                ],
+                [
+                    4.386150032114261E8,
+                    4.380134427649071E8,
+                    4.3925389576669466E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part2.KotlinBenchmarkPart2.javaIntVarargs",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.436841373648708E7,
+            "scoreError" : 1240595.4514748827,
+            "scoreConfidence" : [
+                6.31278182850122E7,
+                6.5609009187961966E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.4043712627470635E7,
+                "50.0" : 6.4251541876159325E7,
+                "90.0" : 6.5246850867737025E7,
+                "95.0" : 6.5246850867737025E7,
+                "99.0" : 6.5246850867737025E7,
+                "99.9" : 6.5246850867737025E7,
+                "99.99" : 6.5246850867737025E7,
+                "99.999" : 6.5246850867737025E7,
+                "99.9999" : 6.5246850867737025E7,
+                "100.0" : 6.5246850867737025E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    6.5246850867737025E7,
+                    6.4313832783703215E7,
+                    6.4043712627470635E7
+                ],
+                [
+                    6.410300238769295E7,
+                    6.4271573577362575E7,
+                    6.423151017495608E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part2.KotlinBenchmarkPart2.javaLocalFunction",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.2797104847877026E8,
+            "scoreError" : 1.0815273035527164E8,
+            "scoreConfidence" : [
+                3.198183181234986E8,
+                5.361237788340419E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.493865256815368E8,
+                "50.0" : 4.443459242262456E8,
+                "90.0" : 4.456176359675371E8,
+                "95.0" : 4.456176359675371E8,
+                "99.0" : 4.456176359675371E8,
+                "99.9" : 4.456176359675371E8,
+                "99.99" : 4.456176359675371E8,
+                "99.999" : 4.456176359675371E8,
+                "99.9999" : 4.456176359675371E8,
+                "100.0" : 4.456176359675371E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.441485410814902E8,
+                    4.4454330737100095E8,
+                    4.456176359675371E8
+                ],
+                [
+                    3.493865256815368E8,
+                    4.449809407234692E8,
+                    4.391493400475874E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part2.KotlinBenchmarkPart2.javaSayHello",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 7.975203516778423E7,
+            "scoreError" : 2457182.65013033,
+            "scoreConfidence" : [
+                7.72948525176539E7,
+                8.220921781791456E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.802472831008016E7,
+                "50.0" : 8.007072566364752E7,
+                "90.0" : 8.043808634692001E7,
+                "95.0" : 8.043808634692001E7,
+                "99.0" : 8.043808634692001E7,
+                "99.9" : 8.043808634692001E7,
+                "99.99" : 8.043808634692001E7,
+                "99.999" : 8.043808634692001E7,
+                "99.9999" : 8.043808634692001E7,
+                "100.0" : 8.043808634692001E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    8.0175621371216E7,
+                    8.010169236297883E7,
+                    7.97323236511942E7
+                ],
+                [
+                    8.00397589643162E7,
+                    8.043808634692001E7,
+                    7.802472831008016E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part2.KotlinBenchmarkPart2.kotlinIntVarargs",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.8380221489404924E7,
+            "scoreError" : 1810710.913698568,
+            "scoreConfidence" : [
+                4.6569510575706355E7,
+                5.019093240310349E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.708881712782292E7,
+                "50.0" : 4.865190808085731E7,
+                "90.0" : 4.879904383256023E7,
+                "95.0" : 4.879904383256023E7,
+                "99.0" : 4.879904383256023E7,
+                "99.9" : 4.879904383256023E7,
+                "99.99" : 4.879904383256023E7,
+                "99.999" : 4.879904383256023E7,
+                "99.9999" : 4.879904383256023E7,
+                "100.0" : 4.879904383256023E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.84048627143508E7,
+                    4.708881712782292E7,
+                    4.863431945595491E7
+                ],
+                [
+                    4.868478909998098E7,
+                    4.879904383256023E7,
+                    4.86694967057597E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part2.KotlinBenchmarkPart2.kotlinLocalFunctionCapturingLocalVariable",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.483550335313959E8,
+            "scoreError" : 2.0531184791374415E7,
+            "scoreConfidence" : [
+                4.2782384874002147E8,
+                4.6888621832277036E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.426342424007833E8,
+                "50.0" : 4.4545372715974224E8,
+                "90.0" : 4.621710486923279E8,
+                "95.0" : 4.621710486923279E8,
+                "99.0" : 4.621710486923279E8,
+                "99.9" : 4.621710486923279E8,
+                "99.99" : 4.621710486923279E8,
+                "99.999" : 4.621710486923279E8,
+                "99.9999" : 4.621710486923279E8,
+                "100.0" : 4.621710486923279E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.4489344960093135E8,
+                    4.437209110714942E8,
+                    4.460140047185532E8
+                ],
+                [
+                    4.426342424007833E8,
+                    4.5069654470428544E8,
+                    4.621710486923279E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part2.KotlinBenchmarkPart2.kotlinLocalFunctionWithoutCapturingLocalVariable",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.568929165589287E8,
+            "scoreError" : 2.44120795517033E7,
+            "scoreConfidence" : [
+                4.3248083700722545E8,
+                4.81304996110632E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.3944289249542415E8,
+                "50.0" : 4.6037548840905213E8,
+                "90.0" : 4.618999041198697E8,
+                "95.0" : 4.618999041198697E8,
+                "99.0" : 4.618999041198697E8,
+                "99.9" : 4.618999041198697E8,
+                "99.99" : 4.618999041198697E8,
+                "99.999" : 4.618999041198697E8,
+                "99.9999" : 4.618999041198697E8,
+                "100.0" : 4.618999041198697E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.3944289249542415E8,
+                    4.611579972903655E8,
+                    4.5752500738958323E8
+                ],
+                [
+                    4.618999041198697E8,
+                    4.595929795277388E8,
+                    4.617387185305906E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part2.KotlinBenchmarkPart2.kotlinSayHello",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 7.729701686184166E7,
+            "scoreError" : 1379818.2948324736,
+            "scoreConfidence" : [
+                7.59171985670092E7,
+                7.867683515667413E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.631189320468442E7,
+                "50.0" : 7.747373989828537E7,
+                "90.0" : 7.76079174760994E7,
+                "95.0" : 7.76079174760994E7,
+                "99.0" : 7.76079174760994E7,
+                "99.9" : 7.76079174760994E7,
+                "99.99" : 7.76079174760994E7,
+                "99.999" : 7.76079174760994E7,
+                "99.9999" : 7.76079174760994E7,
+                "100.0" : 7.76079174760994E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    7.631189320468442E7,
+                    7.740168242507006E7,
+                    7.76079174760994E7
+                ],
+                [
+                    7.754579737150069E7,
+                    7.735949056419754E7,
+                    7.755532012949789E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.javaSimplyInitializedProperty",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.411175443645637E8,
+            "scoreError" : 2559681.5397971673,
+            "scoreConfidence" : [
+                2.3855786282476655E8,
+                2.4367722590436086E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.3993996914050597E8,
+                "50.0" : 2.412910644969834E8,
+                "90.0" : 2.4211343848491114E8,
+                "95.0" : 2.4211343848491114E8,
+                "99.0" : 2.4211343848491114E8,
+                "99.9" : 2.4211343848491114E8,
+                "99.99" : 2.4211343848491114E8,
+                "99.999" : 2.4211343848491114E8,
+                "99.9999" : 2.4211343848491114E8,
+                "100.0" : 2.4211343848491114E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.3993996914050597E8,
+                    2.4211343848491114E8,
+                    2.4187286050201127E8
+                ],
+                [
+                    2.4019686906598693E8,
+                    2.4168427659497878E8,
+                    2.40897852398988E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.javaStringComparisons",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.0695158948763385E8,
+            "scoreError" : 1379429.221589257,
+            "scoreConfidence" : [
+                2.055721602660446E8,
+                2.0833101870922312E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.060660756597289E8,
+                "50.0" : 2.0717366919798166E8,
+                "90.0" : 2.0733908254219002E8,
+                "95.0" : 2.0733908254219002E8,
+                "99.0" : 2.0733908254219002E8,
+                "99.9" : 2.0733908254219002E8,
+                "99.99" : 2.0733908254219002E8,
+                "99.999" : 2.0733908254219002E8,
+                "99.9999" : 2.0733908254219002E8,
+                "100.0" : 2.0733908254219002E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.0725825377620134E8,
+                    2.0733908254219002E8,
+                    2.060660756597289E8
+                ],
+                [
+                    2.072624491429295E8,
+                    2.0708908461976197E8,
+                    2.0669459118499172E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinCustomIndicesIteration",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 7.387481439948148E7,
+            "scoreError" : 522884.9770307153,
+            "scoreConfidence" : [
+                7.335192942245077E7,
+                7.439769937651218E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.359028840703699E7,
+                "50.0" : 7.396335497207618E7,
+                "90.0" : 7.402239473365867E7,
+                "95.0" : 7.402239473365867E7,
+                "99.0" : 7.402239473365867E7,
+                "99.9" : 7.402239473365867E7,
+                "99.99" : 7.402239473365867E7,
+                "99.999" : 7.402239473365867E7,
+                "99.9999" : 7.402239473365867E7,
+                "100.0" : 7.402239473365867E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    7.402000264936283E7,
+                    7.402239473365867E7,
+                    7.396549191475804E7
+                ],
+                [
+                    7.359028840703699E7,
+                    7.368949066267803E7,
+                    7.39612180293943E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinDelegateProperty",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.6729997746025667E8,
+            "scoreError" : 4629296.895602233,
+            "scoreConfidence" : [
+                1.6267068056465444E8,
+                1.719292743558589E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.6571408110576203E8,
+                "50.0" : 1.6726058166558173E8,
+                "90.0" : 1.6892756686441427E8,
+                "95.0" : 1.6892756686441427E8,
+                "99.0" : 1.6892756686441427E8,
+                "99.9" : 1.6892756686441427E8,
+                "99.99" : 1.6892756686441427E8,
+                "99.999" : 1.6892756686441427E8,
+                "99.9999" : 1.6892756686441427E8,
+                "100.0" : 1.6892756686441427E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1.6591793873115483E8,
+                    1.6576076028135207E8,
+                    1.6571408110576203E8
+                ],
+                [
+                    1.68876293178848E8,
+                    1.6860322460000864E8,
+                    1.6892756686441427E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinIndirectRange",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.085101391660662E8,
+            "scoreError" : 3.4551601217923656E7,
+            "scoreConfidence" : [
+                4.739585379481426E8,
+                5.430617403839899E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.8347149444842774E8,
+                "50.0" : 5.1302443393758273E8,
+                "90.0" : 5.1571482640929025E8,
+                "95.0" : 5.1571482640929025E8,
+                "99.0" : 5.1571482640929025E8,
+                "99.9" : 5.1571482640929025E8,
+                "99.99" : 5.1571482640929025E8,
+                "99.999" : 5.1571482640929025E8,
+                "99.9999" : 5.1571482640929025E8,
+                "100.0" : 5.1571482640929025E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5.127362379716759E8,
+                    4.8347149444842774E8,
+                    5.1571482640929025E8
+                ],
+                [
+                    5.1238540948201036E8,
+                    5.134402367815035E8,
+                    5.133126299034896E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinIterationUsingLastIndexRange",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.91704669862726E7,
+            "scoreError" : 483563.89745785284,
+            "scoreConfidence" : [
+                6.868690308881475E7,
+                6.965403088373046E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.895359931820363E7,
+                "50.0" : 6.921269622696128E7,
+                "90.0" : 6.94050296596549E7,
+                "95.0" : 6.94050296596549E7,
+                "99.0" : 6.94050296596549E7,
+                "99.9" : 6.94050296596549E7,
+                "99.99" : 6.94050296596549E7,
+                "99.999" : 6.94050296596549E7,
+                "99.9999" : 6.94050296596549E7,
+                "100.0" : 6.94050296596549E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    6.94050296596549E7,
+                    6.917442563527806E7,
+                    6.898725568105514E7
+                ],
+                [
+                    6.925152480479935E7,
+                    6.895359931820363E7,
+                    6.925096681864452E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinLocallyDeclaredRange",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.056165922892696E8,
+            "scoreError" : 3.632179462150577E7,
+            "scoreConfidence" : [
+                4.692947976677638E8,
+                5.419383869107754E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.821298732214083E8,
+                "50.0" : 5.112397121271355E8,
+                "90.0" : 5.1500991349096936E8,
+                "95.0" : 5.1500991349096936E8,
+                "99.0" : 5.1500991349096936E8,
+                "99.9" : 5.1500991349096936E8,
+                "99.99" : 5.1500991349096936E8,
+                "99.999" : 5.1500991349096936E8,
+                "99.9999" : 5.1500991349096936E8,
+                "100.0" : 5.1500991349096936E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5.1420021408227307E8,
+                    5.145959876453402E8,
+                    5.1500991349096936E8
+                ],
+                [
+                    5.0827921017199796E8,
+                    4.821298732214083E8,
+                    4.9948435512362844E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinRangeForEachFunction",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.988769379625102E7,
+            "scoreError" : 1588647.8309501798,
+            "scoreConfidence" : [
+                4.829904596530084E7,
+                5.14763416272012E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.902126868528732E7,
+                "50.0" : 4.984072160146901E7,
+                "90.0" : 5.054350056206535E7,
+                "95.0" : 5.054350056206535E7,
+                "99.0" : 5.054350056206535E7,
+                "99.9" : 5.054350056206535E7,
+                "99.99" : 5.054350056206535E7,
+                "99.999" : 5.054350056206535E7,
+                "99.9999" : 5.054350056206535E7,
+                "100.0" : 5.054350056206535E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    4.989973065251616E7,
+                    4.96120535808562E7,
+                    5.054350056206535E7
+                ],
+                [
+                    5.04678967463592E7,
+                    4.902126868528732E7,
+                    4.9781712550421864E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinRangeForEachLoop",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.427047654646259E7,
+            "scoreError" : 4498539.44651659,
+            "scoreConfidence" : [
+                4.9771937099946E7,
+                5.876901599297918E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.1643868543361574E7,
+                "50.0" : 5.475284258617115E7,
+                "90.0" : 5.603150878465771E7,
+                "95.0" : 5.603150878465771E7,
+                "99.0" : 5.603150878465771E7,
+                "99.9" : 5.603150878465771E7,
+                "99.99" : 5.603150878465771E7,
+                "99.999" : 5.603150878465771E7,
+                "99.9999" : 5.603150878465771E7,
+                "100.0" : 5.603150878465771E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5.3152682447365224E7,
+                    5.499253452187433E7,
+                    5.1643868543361574E7
+                ],
+                [
+                    5.603150878465771E7,
+                    5.528911433104868E7,
+                    5.451315065046798E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinRangeForEachLoopWithStep1",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.027230431827579E7,
+            "scoreError" : 2.8948172718193542E7,
+            "scoreConfidence" : [
+                2.1324131600082245E7,
+                7.922047703646933E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.023247526083805E7,
+                "50.0" : 5.025793524776388E7,
+                "90.0" : 6.036202965102564E7,
+                "95.0" : 6.036202965102564E7,
+                "99.0" : 6.036202965102564E7,
+                "99.9" : 6.036202965102564E7,
+                "99.99" : 6.036202965102564E7,
+                "99.999" : 6.036202965102564E7,
+                "99.9999" : 6.036202965102564E7,
+                "100.0" : 6.036202965102564E7
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    5.958252611160504E7,
+                    6.036202965102564E7,
+                    5.910344225818245E7
+                ],
+                [
+                    4.094092439065823E7,
+                    4.023247526083805E7,
+                    4.141242823734531E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinStringRangeInclusionWithConstantRange",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 1.8123693692260852E8,
+            "scoreError" : 4814639.084376048,
+            "scoreConfidence" : [
+                1.764222978382325E8,
+                1.8605157600698456E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.7933917559858462E8,
+                "50.0" : 1.812579861979394E8,
+                "90.0" : 1.8386208958365193E8,
+                "95.0" : 1.8386208958365193E8,
+                "99.0" : 1.8386208958365193E8,
+                "99.9" : 1.8386208958365193E8,
+                "99.99" : 1.8386208958365193E8,
+                "99.999" : 1.8386208958365193E8,
+                "99.9999" : 1.8386208958365193E8,
+                "100.0" : 1.8386208958365193E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    1.8386208958365193E8,
+                    1.820836152650467E8,
+                    1.8193505887478387E8
+                ],
+                [
+                    1.796207686924892E8,
+                    1.8058091352109492E8,
+                    1.7933917559858462E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.athaydes.kotlin.part3.KotlinBenchmarkPart3.kotlinStringRangeInclusionWithLocalRange",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Program Files\\Zulu\\zulu-11\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "11.0.6",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "11.0.6+10-LTS",
+        "warmupIterations" : 2,
+        "warmupTime" : "3 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 2.0630104963417032E8,
+            "scoreError" : 3735284.743778213,
+            "scoreConfidence" : [
+                2.0256576489039212E8,
+                2.1003633437794852E8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.0446606143319622E8,
+                "50.0" : 2.0698054431830734E8,
+                "90.0" : 2.0737274117737266E8,
+                "95.0" : 2.0737274117737266E8,
+                "99.0" : 2.0737274117737266E8,
+                "99.9" : 2.0737274117737266E8,
+                "99.99" : 2.0737274117737266E8,
+                "99.999" : 2.0737274117737266E8,
+                "99.9999" : 2.0737274117737266E8,
+                "100.0" : 2.0737274117737266E8
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    2.0446606143319622E8,
+                    2.0475194474969077E8,
+                    2.072544618081478E8
+                ],
+                [
+                    2.067317654102887E8,
+                    2.07229323226326E8,
+                    2.0737274117737266E8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
